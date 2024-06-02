@@ -36,7 +36,7 @@ const Signup = (props) => {
     <div className="banner"><img src="/Restaurant.png" alt="res" /></div>
     <div className="banner">
       <div className="reservation_form_box"> 
-        <h1>Login</h1>
+        <h1>Signup</h1>
         <p></p>
         <form onSubmit={handleSubmit}>
           <div>

@@ -25,6 +25,7 @@ const Login = (props) => {
     } else {
       console.error('Login failed!');
       toast.error(data.message || 'Login failed!'); // Use toast for error message with data.message if available
+      navigate('/home');
     }
   };
 
